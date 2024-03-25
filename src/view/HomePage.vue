@@ -4,6 +4,7 @@
         <FirstSection></FirstSection>
         <SecondSection></SecondSection>
         <ThirdSection></ThirdSection>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -12,6 +13,7 @@ import MyHeader from '@/components/MyHeader.vue';
 import FirstSection from '@/components/FirstSection.vue';
 import SecondSection from '@/components/SecondSection.vue'
 import ThirdSection from '@/components/ThirdSection.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
     name: 'homePage',
@@ -19,7 +21,8 @@ export default {
         MyHeader,
         FirstSection,
         SecondSection,
-        ThirdSection
+        ThirdSection,
+        Footer
     }
 }
 

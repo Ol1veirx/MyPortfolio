@@ -25,7 +25,8 @@ export default {
   overflow: hidden;
   transition: box-shadow 0.3s ease;
 
-  width: 300px;
+  height: 500px;
+  width: 350px;
 }
 
 .link-box:hover {
