@@ -1,8 +1,8 @@
 <template>
     <section class="second-section">
         <div class="text-content">
-            <h3>Minha Tecnologias</h3>
-            <span>Tecnologias que eu trabalho</span>
+            <h3>My Technologies</h3>
+            <span>Technologies I work with</span>
         </div>
 
         <div class="icon-techs">
@@ -36,7 +36,15 @@ export default {
     justify-content: center;
     flex-direction: column;
     gap: 35px;
-    margin-top:150px;
+    margin-top:400px;
+    background-color: rgb(216, 215, 215);
+    height: 900px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.432);
+}
+
+.text-content h3{
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .floating-img {

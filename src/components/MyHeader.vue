@@ -1,9 +1,9 @@
 <template>
-  <header class="navbar navbar-expand-lg navbar-light bg-white">
+  <header class="navbar navbar-expand-lg navbar-light">
     <div class="container d-flex justify-content-between align-items-center header-container">
       <!-- Logo no lado esquerdo -->
       <router-link to="/" class="navbar-brand">
-        <img src="@/assets/logo-header.png" alt="Logo" class="mr-5" />
+        <h1><span>O</span>liveira</h1>
       </router-link>
 
       <button class="navbar-toggler" type="button" @click="toggleMenu" aria-label="Toggle navigation">
@@ -20,14 +20,9 @@
             <router-link to="/" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about" class="nav-link">Sobre</router-link>
+            <router-link to="/about" class="nav-link">About</router-link>
           </li>
         </ul>
-      </div>
-
-      <div class="d-lg-flex flex-row align-items-center link-icons">
-        <a href="https://github.com/Ol1veirx" target="_blank" class="nav-link"><img src="@/assets/github.svg" alt="GitHub" class="contacts-icon" /></a>
-        <a href="https://www.linkedin.com/in/liedson-d-o-leite/" target="_blank" class="nav-link"><img src="@/assets/linkedin.svg" alt="LinkedIn" class="contacts-icon" /></a>
       </div>
     </div>
   </header>
@@ -58,11 +53,22 @@ export default {
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, #1b2201, rgb(198, 241, 5));
+  /* background: linear-gradient(to right, #1b2201, #c97309); */
 }
 
-.navbar-brand img {
-  width: 70px;
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand span{
+  color: #c97309;
+}
+
+.navbar-brand h1{
+  font-weight: bold;
+  color: #2c3e50;
 }
 
 .contacts-icon {
